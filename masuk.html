@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk</title>
+
+<link rel="stylesheet" href="bootstrap.min.css">
+
+<style>
+    body{
+        text-align: center;
+        margin-top: 100px;
+        background-image: url(kelapa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="UTS/stylelog.css" rel="stylesheet">
+  </head>
+  <link rel="shortcut icon" type="image/png" href="logo.png">
+  <body>
+    <div class="container1">
+      <div class="card login-form">
+        <div class="body">
+          <img class="mb-4" src="logo.png" alt="" width="150" height="150">
+          <h1 class="h3 mb-3 fw-normal">Selamat Datang Di Fresh Supermart</h1>
+        </div>
+        <div class="card-text">
+    <div class="form-floating">
+      <label for="email">E-mail</label>
+      <input type="email" class="form-control" id="nim" placeholder="Your e-mail"><br><br>
+    </div>
+    <div class="form-floating w-80">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Password"><br><br>
+    </div>
+    <input type="button" class="btn" value="Login" onclick="login()">
+</div>
+</div>
+</div>
+<script>
+    function login(){
+        var _nim = document.getElementById("email").value;            
+        var _password = document.getElementById("password").value;  
+                   
+    if(_email=="210102096" && _password =="210102096"){
+        alert("Login Sukses");
+        window.location.href="index.html";
+    }else{
+        alert("Login Gagal");
+    }
+    }            
+    </script>
+</body>
+</html>
